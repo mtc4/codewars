@@ -31,7 +31,7 @@ class PaginationHelper {
     return Math.ceil((itemIndex + 1) / this.itemsPerPage) - 1;
   }
 
-  //utility
+  //utils
   hasItemAtIndex(index, count) {
     return index >= 0 && index <= count - 1;
   }
